@@ -1,0 +1,22 @@
+body{
+background-color: paleturquoise;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: blueviolet;
+}
+div{
+    padding: 20px;
+    margin:10px;
+    border: 5px;
+    border: 5px solid black;
+}
+button{
+    width: 60px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 196);
+}

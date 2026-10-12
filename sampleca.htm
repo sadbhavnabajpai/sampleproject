@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My courses</title>
+        <style>
+            body{
+                background-color: rgb(151, 212, 212);
+            }
+            h1{
+                text-align:center;
+                color: blue;
+            }
+            .courses{
+               /* display: inline-block;
+                vertical-align: auto;*/
+                display: flex;
+                /*text-align: center;*/
+                /*grid-template-columns: 1fr 1fr ;
+                grid-template-rows: 1fr 1fr;
+               justify-content: center;
+               gap: 20px;*/
+               flex-direction: row;
+               justify-content: center;
+            }
+            .course{
+               /* background-color: rgb(133, 180, 180);*/
+               background-color: rgb(246, 233, 235);
+               width: 200px;
+               padding: 40px;
+               border: 5px,solid;
+               border-color: blue;
+               margin: 15px;
+               border-radius: 10px;
+               min-height: 120px;
+            } 
+            .courses{
+                text-align: center;
+            }
+            .course button{
+               background-color:blue;
+               color:aliceblue;
+               border:4px;
+               padding:5px;
+               border-radius: 10px;
+            }
+            .course h2{
+                color:blue;
+            }
+            .line{
+                text-align: center;
+                color:black;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MY COURSES</h1>
+        <div class="courses">
+            <div class="course">
+                <h2>HTML</h2>
+                <p>Learn the basics of HTML and<br>
+                    create your first webpage.</p>
+                <button>Start Course</button>
+            </div>
+            <div class="course">
+                <h2>CSS</h2>
+                <p>Learn colors, fonts, borders and<br>
+                beautiful webpage styling.</p>
+                <button>Start Course</button>
+            </div>
+            <div class="course">
+                <h2>JavaScript</h2>
+                <p>Learn JavaScript and make your<br>webpage interactive. </p>
+                     <button>Start Course</button>
+            </div>
+        </div>
+        <p class="line">Learn Web Development</p>
+    </body>
+</html>

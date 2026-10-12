@@ -1,0 +1,11 @@
+let intros = document.getElementsByClassName("intro");
+console.log(intros);
+console.dir(intros);
+let a = document.getElementsByTagName("p");
+console.dir(a);
+let firstel = document.querySelector(".intro");
+console.log(firstel);
+let para = document.querySelectorAll("p");
+console.log(para);
+let child= (document.body.firstchild);
+console.dir("child");
