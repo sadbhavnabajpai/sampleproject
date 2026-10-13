@@ -10,7 +10,17 @@
     <br><br>
     <label>Password :</label>
     <input type="password" value="Enter your password">
+<br><br>
+    <label>Gender</label>
+    <input type="radio">male
+    <input type="radio">female
 
     <br><br>
-    <button type="submit">Submit</button>
+    <button id="submit" type="submit" onclick="sayhello()">Submit</button>
+    <script>
+        function sayhello(){
+            document.getElementById("submit").innerHTML=
+            "Submitted Succesfully";
+        }
+    </script>
 </form>

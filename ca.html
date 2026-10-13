@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <button class="new-chat-btn">+ New Chat</button>
+            <div class="history-section">
+                <h3>Today</h3>
+                <ul>
+                    <li>Explain HTML basics</li>
+                    <li>CSS project ideas</li>
+                    <li>Operating System notes</li>
+                </ul>
+                <h3>Yesterday</h3>
+                <ul>
+                    <li>JavaScript questions</li>
+                    <li>Web development project</li>
+                </ul>
+            </div>
+            <div class="sidebar-footer">
+                <p>⚙️ Settings</p>
+                <p>❓ Help</p>
+                <div class="user-profile">
+                    <div class="avatar">A</div>
+                    <span>Student (Free Plan)</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <h2>My AI</h2>
+            </header>
+
+            <!-- Chat Window containing messages -->
+            <div class="chat-window" id="chatWindow">
+                <div class="welcome-message">
+                    <h1>How can I help you?</h1>
+                    <p>Ask me anything. I can help you learn, write, code and explore ideas.</p>
+                </div>
+                
+                <!-- Messages will dynamically appear here -->
+            </div>
+
+            <!-- Input Form Bar -->
+            <footer class="chat-input-container">
+                <form id="chatForm">
+                    <input type="text" id="userInput" placeholder="Message My AI..." autocomplete="off" required>
+                    <button type="submit" id="sendBtn">⬆</button>
+                </form>
+                <p class="disclaimer">My AI can make mistakes. Check important information.</p>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
